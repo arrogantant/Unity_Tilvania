@@ -20,7 +20,7 @@ TagManager:
   - Enemies
   - Hazards
   - Bullet
-  - 
+  - Exit
   - 
   - 
   - 
@@ -56,6 +56,9 @@ TagManager:
     locked: 0
   - name: Bouncing
     uniqueID: 1231159445
+    locked: 0
+  - name: Exit
+    uniqueID: 282214747
     locked: 0
   - name: Hazards
     uniqueID: 1221966689
