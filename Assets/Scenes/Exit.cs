@@ -8,9 +8,11 @@ public class Exit : MonoBehaviour
     [SerializeField] float levelLoadDelay = 1f;
     void OnTriggerEnter2D(Collider2D other) 
     {
+        if(other.tag == "Player")
         {
             StartCoroutine(LoadNextLevel());
         }
+    }
 
         IEnumerator LoadNextLevel()
         {
@@ -26,5 +28,5 @@ public class Exit : MonoBehaviour
             SceneManager.LoadScene(nextSceneIndex);
         }
         
-    }
 }
+

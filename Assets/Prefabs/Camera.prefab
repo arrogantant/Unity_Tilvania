@@ -413,6 +413,8 @@ MonoBehaviour:
     m_ParentHash: 756556552
   - m_Hash: -108145545
     m_ParentHash: 756556552
+  - m_Hash: -1482263730
+    m_ParentHash: 756556552
 --- !u!1 &7027199667778112289
 GameObject:
   m_ObjectHideFlags: 0
