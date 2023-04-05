@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 57
+  controlID: 4345
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 58
+  controlID: 4346
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 59
+  controlID: 4347
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,7 +365,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -427,9 +427,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5080000054800000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c8e9ffff90eaffff58ebffff20ecffffe8ecffffb0edffff78eeffff42efffff94f0ffffbcf1ffff80f2ffff4af3ffff18f4ffffa8f7ffff26f8ffff98f8ffff50f9ffff06fbffff3e830000
+      m_ExpandedIDs: aac7ffffe2e8ffffa8f0ffffe0f1ffffccf2ffffb8f7ffff8ef8ffff56f9ffff0efbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -735,9 +735,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.85227513, y: 5.2093267, z: -0.811365}
+    m_Target: {x: -1.5959735, y: 4.0964293, z: -0.74929553}
     speed: 2
-    m_Value: {x: 0.85227513, y: 5.2093267, z: -0.811365}
+    m_Value: {x: -1.5959735, y: 4.0964293, z: -0.74929553}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,9 +788,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.928619
+    m_Target: 6.8192806
     speed: 2
-    m_Value: 11.928619
+    m_Value: 6.8192806
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -835,9 +835,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 727
+    x: 634
     y: 73
-    width: 732
+    width: 856
     height: 534
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -847,6 +847,7 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -8421150944943600052, guid: 2474b90848b17bd4996e436f009a3984, type: 2}
     - {fileID: 7564582122036311364, guid: 56140d79f5635c947b6b93561427dbbb, type: 2}
+    - {fileID: 5327661891121282176, guid: 8238e84576285aa4d9350effdd871d57, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.726087
       e01: 0
@@ -880,10 +881,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.726087
+      e01: 0
+      e02: 0
+      e03: -15.695641
+      e10: 0
+      e11: 0.726087
+      e12: 0
+      e13: 201.79784
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 2474b90848b17bd4996e436f009a3984, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 8238e84576285aa4d9350effdd871d57, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8421150944943600052, guid: 2474b90848b17bd4996e436f009a3984, type: 2}
+  - m_Target: {fileID: 5327661891121282176, guid: 8238e84576285aa4d9350effdd871d57, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -937,22 +954,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sound
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sound
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\com\Documents\TileVania
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24650000
-    m_LastClickedID: 25892
-    m_ExpandedIDs: 000000001a65000000ca9a3b
+    m_SelectedIDs: c09c0000
+    m_LastClickedID: 40128
+    m_ExpandedIDs: 000000002666000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -980,7 +997,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 0000000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1008,7 +1025,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300007e5f0000b65f000092600000ac65000056640000d0640000f2640000
+    m_ExpandedInstanceIDs: c62300007e5f0000b65f000092600000ac65000056640000d0640000f2640000b0670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
